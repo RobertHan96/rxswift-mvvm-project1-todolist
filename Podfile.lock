@@ -1,0 +1,48 @@
+PODS:
+  - Realm (10.28.0):
+    - Realm/Headers (= 10.28.0)
+  - Realm/Headers (10.28.0)
+  - RealmSwift (10.28.0):
+    - Realm (= 10.28.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRealm (5.0.4):
+    - Realm (~> 10.21)
+    - RealmSwift (~> 10.21)
+    - RxCocoa (~> 6.1)
+    - RxSwift (~> 6.1)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - RealmSwift (~> 10)
+  - RxCocoa
+  - RxRealm
+  - RxSwift
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Realm: a0dd4e07530faaa327244ddb4ecb445c98f0537a
+  RealmSwift: 625a21f03e01e80f6b9b86bade269ebebcd7892c
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRealm: 666c8785327fe2fff972a3093b35dc7055c1ca38
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 36b85c64aca8070ca20987c15d216954de71e73a
+
+COCOAPODS: 1.11.3

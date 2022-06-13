@@ -1,0 +1,105 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/swift,xcode
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift,xcode
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+Pods/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Xcode ###
+
+## Xcode 8 and earlier
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# End of https://www.toptal.com/developers/gitignore/api/swift,xcode
+# Created by https://www.toptal.com/developers/gitignore/api/swift,xcode # Edit at https://www.toptal.com/developers/gitignore?templates=swift,xcode ### Swift ### # Xcode # # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore ## User settings xcuserdata/ ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9) *.xcscmblueprint *.xccheckout ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4) build/ DerivedData/ *.moved-aside *.pbxuser !default.pbxuser *.mode1v3 !default.mode1v3 *.mode2v3 !default.mode2v3 *.perspectivev3 !default.perspectivev3 ## Obj-C/Swift specific *.hmap ## App packaging *.ipa *.dSYM.zip *.dSYM ## Playgrounds timeline.xctimeline playground.xcworkspace # Swift Package Manager # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies. # Packages/ # Package.pins # Package.resolved # *.xcodeproj # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata # hence it is not needed unless you have added a package configuration file to your project # .swiftpm .build/ # CocoaPods # We recommend against adding the Pods directory to your .gitignore. However # you should judge for yourself, the pros and cons are mentioned at: # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control # Pods/ # Add this line if you want to avoid checking in source code from the Xcode workspace # *.xcworkspace # Carthage # Add this line if you want to avoid checking in source code from Carthage dependencies. # Carthage/Checkouts Carthage/Build/ # Accio dependency management Dependencies/ .accio/ # fastlane # It is recommended to not store the screenshots in the git repo. # Instead, use fastlane to re-generate the screenshots whenever they are needed. # For more information about the recommended setup visit: # https://docs.fastlane.tools/best-practices/source-control/#source-control fastlane/report.xml fastlane/Preview.html fastlane/screenshots/**/*.png fastlane/test_output # Code Injection # After new code Injection tools there's a generated folder /iOSInjectionProject # https://github.com/johnno1962/injectionforxcode iOSInjectionProject/ ### Xcode ### ## Xcode 8 and earlier ### Xcode Patch ### *.xcodeproj/* !*.xcodeproj/project.pbxproj !*.xcodeproj/xcshareddata/ !*.xcworkspace/contents.xcworkspacedata /*.gcno **/xcshareddata/WorkspaceSettings.xcsettings # End of https://www.toptal.com/developers/gitignore/api/swift,xcode Eng
+
+# 생성: https://www.toptal.com/developers/gitignore/api/swift,xcode # https://www.toptal.com/developers/gitignore?templates=swift,xcode에서 편집 ### 빠른 ### # 엑스코드 # # gitignore 기고자: Global/Xcode.gitignore, Objective-C.gitignore 및 Swift.gitignore 업데이트를 기억하세요. ## 사용자 설정 xcuserdata/ ## Xcode 8 및 이전 버전과의 호환성(Xcode 9를 시작할 때 필요하지 않음 무시) *.xcscm청사진 *.xc체크아웃 ## Xcode 3 및 이전 버전과의 호환성(Xcode 4를 시작할 때 필요하지 않음 무시) 짓다/ 파생 데이터/ *.옆으로 이동 *.pbxuser !default.pbxuser *.mode1v3 !default.mode1v3 *.mode2v3 !default.mode2v3 *.perspectivev3 !default.perspectivev3 ## Obj-C/Swift 전용 *.hmap ## 앱 패키징 *.ipa *.dSYM.zip *.dSYM ## 놀이터 타임라인.xc타임라인 놀이터.xcworkspace # 스위프트 패키지 관리자 # Swift Package Manager 의존성에서 소스 코드를 체크인하지 않으려면 이 줄을 추가하십시오. # 패키지/ # 패키지.핀 # 패키지.해결됨 # *.xcodeproj # Xcode는 .xcworkspacedata 파일과 xcuserdata로 이 디렉토리를 자동으로 생성합니다. # 따라서 프로젝트에 패키지 구성 파일을 추가하지 않는 한 필요하지 않습니다. # .swiftpm .짓다/ # 코코아팟 # .gitignore에 Pod 디렉터리를 추가하지 않는 것이 좋습니다. 하지만 # 스스로 판단해야 합니다. 장단점은 다음에서 언급됩니다. # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control # 포드/ # Xcode 작업 공간에서 소스 코드를 체크인하지 않으려면 이 줄을 추가하십시오. # *.xc작업공간 # 카르타고 # Carthage 종속성에서 소스 코드를 체크인하지 않으려면 이 줄을 추가하십시오. # 카르타고/체크아웃 카르타고/빌드/ # Accio 종속성 관리 종속성/ .accio/ # 빠른 차선 # 스크린샷은 git repo에 저장하지 않는 것이 좋습니다. # 대신 fastlane을 사용하여 필요할 때마다 스크린샷을 다시 생성하십시오. # 권장 설정에 대한 자세한 내용은 다음을 참조하세요. # https://docs.fastlane.tools/best-practices/source-control/#source-control fastlane/report.xml fastlane/Preview.html fastlane/스크린샷/**/*.png fastlane/test_output # 코드 주입 # 새 코드 삽입 도구 뒤에 생성된 폴더가 있습니다. /iOSInjectionProject # https://github.com/johnno1962/injectionforxcode iOS인젝션 프로젝트/ ### 엑스코드 ### ## Xcode 8 및 이전 버전 ### Xcode 패치 ### *.xcodeproj/* !*.xcodeproj/project.pbxproj !*.xcodeproj/xcshareddata/ !*.xcworkspace/contents.xcworkspacedata /*.gcno **/xcshareddata/WorkspaceSettings.xcsettings # https://www.toptal.com/developers/gitignore/api/swift,xcode 끝
+
